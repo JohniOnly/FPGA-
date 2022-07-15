@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/bmp.h
+stdint.h
+-
+
+/home/johni/GitControl/yrr/src/bicubic.c
+math.h
+-
+stdio.h
+/home/johni/GitControl/yrr/src/stdio.h
+bmp.h
+/home/johni/GitControl/yrr/src/bmp.h
+
+/home/johni/GitControl/yrr/src/bmp.c
+stdlib.h
+-
+stdio.h
+-
+string.h
+-
+bmp.h
+/home/johni/GitControl/yrr/src/bmp.h
+

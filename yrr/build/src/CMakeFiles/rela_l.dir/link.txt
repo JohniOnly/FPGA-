@@ -1,0 +1,2 @@
+/usr/bin/ar qc librela_l.a  CMakeFiles/rela_l.dir/bicubic.c.o CMakeFiles/rela_l.dir/bmp.c.o
+/usr/bin/ranlib librela_l.a

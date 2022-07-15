@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -rdynamic CMakeFiles/Scaler.dir/main.c.o CMakeFiles/Scaler.dir/src/bicubic.c.o CMakeFiles/Scaler.dir/src/bmp.c.o  -o Scaler  -lm src/librela_l.a -lm 
